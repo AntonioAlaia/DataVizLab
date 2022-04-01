@@ -16,3 +16,7 @@ plot <- ggplot(data, aes(x=student_faculty_ratio, y=ranking_display)) +
   geom_point() +
   geom_smooth(method=lm , color="red", se=FALSE) +
   theme_bw()
+
+
+
+### TRY TO DO THE SAME THING BUT WITH MORE UNIVER AND BEESWARM!!!
